@@ -24,10 +24,15 @@ A memory scanner and editor for macOS, similar to Cheat Engine but built specifi
 
 MacMemory requires SIP to be disabled to access process memory on macOS:
 
-1. Restart your Mac in Recovery Mode (hold Command+R during startup)
-2. Once in Recovery Mode, open Terminal from the Utilities menu
+1. For Apple Silicon Macs:
+   - Shut down your Mac completely.
+   - Start it and continue holding the power button until the Recovery menu appears.
+   - Once in Recovery Mode, open Terminal from the Utilities menu.
+2. For Intel Macs:
+   - Restart your Mac and hold Command+R during startup to enter Recovery Mode.
+   - Once in Recovery Mode, open Terminal from the Utilities menu.
 3. Run: `csrutil disable`
-4. Restart your Mac normally
+4. Restart your Mac normally.
 
 **Warning**: Disabling SIP reduces system security. Consider re-enabling it (`csrutil enable` in Recovery Mode) when you're not using MacMemory.
 

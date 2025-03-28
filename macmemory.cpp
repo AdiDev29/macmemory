@@ -1,6 +1,5 @@
 // MacMemory - A macOS memory scanner and editor
-// Created by: Your Name
-// Contributors: Adrian Maier
+// Created by: Adrian Maier
 
 #include <iostream>
 #include <vector>
