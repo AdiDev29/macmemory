@@ -62,7 +62,7 @@ sudo ./dist/macmemoryfat
 #### Using Make
 
 ```bash
-git clone https://github.com/yourusername/macmemory.git
+git clone https://github.com/adidev29/macmemory.git
 cd macmemory
 make
 ```
